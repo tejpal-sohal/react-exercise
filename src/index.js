@@ -12,7 +12,6 @@ const store = createStore(
   {}, 
   applyMiddleware(thunk)
 )
-
 render(
   <Provider store={store}>
     <SelectedLessons />

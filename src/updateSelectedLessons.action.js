@@ -17,3 +17,11 @@ export const updateSelectedLessonsSuccess = data => {
 }
 
 // fake an async request to API here:
+
+// export const api = fetch(`./all-lessons.json`)
+// .then(res => res.json())
+// .then((data) => {
+//    this.setState({
+//       data,
+//    });
+// });

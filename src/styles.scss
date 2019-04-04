@@ -5,4 +5,40 @@ body{
 
 $buttonColor: #46ACCA;
 
+
+ul {
+  li{
+     list-style: none;
+     padding: 5px;
+     font-size: 18px;
+  }
+}
+
+input[type=checkbox]{
+  margin: 0 10px;
+}
+
+button {
+  background-color: $buttonColor;
+  color:#FFF;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 50px; 
+  margin-bottom: 50px;
+}
+
+button:enabled{
+  transition: all 1.5s ease-in-out;
+}
+
+button:disabled{
+  opacity: 0.5; 
+}
+
+span{
+  margin-left: 50px; 
+
+}
+
 // add styles here
